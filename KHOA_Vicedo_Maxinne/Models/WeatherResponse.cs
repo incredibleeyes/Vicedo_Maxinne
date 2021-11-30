@@ -5,6 +5,8 @@
         public Request request { get; set; }
         public Location location { get; set; }
         public Current current { get; set; }
+        public Error error { get; set; }
+        public bool? success { get; set; }
     }
 
     public class Request
@@ -46,5 +48,12 @@
         public decimal uv_index { get; set; }
         public decimal visibility { get; set; }
         public string is_day { get; set; }
+    }
+
+    public class Error
+    {
+        public int code { get; set; }
+        public string type { get; set; }
+        public string info { get; set; }
     }
 }

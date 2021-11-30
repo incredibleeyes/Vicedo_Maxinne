@@ -8,24 +8,17 @@ namespace KHOA_Vicedo_Maxinne.Services
     public class WeatherHttpClient : IWeatherHttpClient
     {
         private readonly HttpClient _httpClient;
+
         public WeatherHttpClient()
         {
             _httpClient = new HttpClient();
             _httpClient.BaseAddress = new Uri(ConfigurationManager.AppSettings["WeatherAPIBaseAddress"]);
             _httpClient.DefaultRequestHeaders.Clear();
-
         }
 
         public async Task<HttpResponseMessage> GetAsync(string requestUri)
         {
-            try
-            {
-                return await _httpClient.GetAsync(requestUri);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Invalid request");
-            }
+            return await _httpClient.GetAsync(requestUri);
         }
     }
 }

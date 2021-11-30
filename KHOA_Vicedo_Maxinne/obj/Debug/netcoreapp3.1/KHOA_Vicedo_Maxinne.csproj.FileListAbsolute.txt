@@ -10,12 +10,6 @@ C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug
 C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\KHOA_Vicedo_Maxinne.runtimeconfig.dev.json
 C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\KHOA_Vicedo_Maxinne.dll
 C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\KHOA_Vicedo_Maxinne.pdb
-C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\System.Web.Razor.dll
-C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\System.Web.Helpers.dll
-C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\System.Web.WebPages.Deployment.dll
-C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\System.Web.WebPages.Razor.dll
-C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\System.Web.WebPages.dll
-C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
 C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
 C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
@@ -37,3 +31,4 @@ C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\obj\Debug
 C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\obj\Debug\netcoreapp3.1\KHOA_Vicedo_Maxinne.dll
 C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\obj\Debug\netcoreapp3.1\KHOA_Vicedo_Maxinne.pdb
 C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\obj\Debug\netcoreapp3.1\KHOA_Vicedo_Maxinne.genruntimeconfig.cache
+C:\Users\Marielle\source\repos\KHOA_Vicedo_Maxinne\KHOA_Vicedo_Maxinne\bin\Debug\netcoreapp3.1\log4net.dll
