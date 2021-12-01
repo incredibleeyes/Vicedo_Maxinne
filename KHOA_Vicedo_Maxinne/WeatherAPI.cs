@@ -34,7 +34,7 @@ namespace KHOA_Vicedo_Maxinne
                         Console.WriteLine($"The current weather condition today in {weatherToday.location.region} is {weatherToday.current.weather_descriptions[0]}");
 
                         Console.WriteLine("\nShould you go outside?");
-                        if (weatherToday.current.precip > WeatherConstants.slightRainPrecipitaion)
+                        if (weatherToday.current.precip > WeatherConstants.sunnyDayPrecipitation)
                         {
                             Console.WriteLine($"No. The precipitation level today is at {weatherToday.current.precip} so we advise you not to go out.");
                         }
