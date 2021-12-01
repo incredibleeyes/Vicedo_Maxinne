@@ -22,7 +22,7 @@ namespace KHOA_Vicedo_Maxinne
 
             while (String.IsNullOrEmpty(zipcode))
             {
-                Console.WriteLine("May I have your zipcode to check on weather conditions?");
+                Console.WriteLine("\nMay I have your zipcode to check on weather conditions?");
                 zipcode = Console.ReadLine();
 
                 if (Regex.IsMatch(zipcode, ValidationConstants.RegexZipCode))
@@ -33,38 +33,41 @@ namespace KHOA_Vicedo_Maxinne
                     {
                         Console.WriteLine($"The current weather condition today in {weatherToday.location.region} is {weatherToday.current.weather_descriptions[0]}");
 
+                        Console.WriteLine("\nShould you go outside?");
                         if (weatherToday.current.precip > WeatherConstants.slightRainPrecipitaion)
                         {
-                            Console.WriteLine($"The precipitation level today is at {weatherToday.current.precip} so we advise you not to go out.");
+                            Console.WriteLine($"No. The precipitation level today is at {weatherToday.current.precip} so we advise you not to go out.");
                         }
                         else
                         {
-                            Console.WriteLine("It is a good day to go out today. ");
+                            Console.WriteLine("Yes. It is a good day to go out today. ");
                         }
 
+                        Console.WriteLine("\nShould you wear sunscreen?");
                         if (weatherToday.current.uv_index > WeatherConstants.highUvIndex)
                         {
-                            Console.WriteLine($"UV index is at {weatherToday.current.uv_index} kindly do not forget your sunscreen");
+                            Console.WriteLine($"Yes. UV index is at {weatherToday.current.uv_index} kindly do not forget your sunscreen");
                         }
                         else
                         {
                             Console.WriteLine("No need for sunscreens today.");
                         }
 
+                        Console.WriteLine("\nCan you fly your kite?");
                         if (weatherToday.current.wind_speed > WeatherConstants.windSpeedForKite)
                         {
-                            Console.WriteLine($"You can fly your kite today, wind speed is at {weatherToday.current.wind_speed}");
+                            Console.WriteLine($"Yes.You can fly your kite today, wind speed is at {weatherToday.current.wind_speed}");
                         }
                         else
                         {
-                            Console.WriteLine("It is not a good day to fly kites today.");
+                            Console.WriteLine("No. It is not a good day to fly kites today.");
                         } 
                     }
 
                     else
                     {
                         zipcode = String.Empty;
-                        Console.WriteLine("There seems to be a problem retrieving that data. Please try another zip code.");
+                        Console.WriteLine("\nThere seems to be a problem retrieving that data. Please try another zip code.");
                     }
 
                 }
@@ -75,7 +78,7 @@ namespace KHOA_Vicedo_Maxinne
                 else
                 {
                     zipcode = String.Empty;
-                    Console.WriteLine("Please try again and enter a valid zipcode.");
+                    Console.WriteLine("\nPlease try again and enter a valid zipcode.");
                     Console.WriteLine("Kindly input X if you want to quit.");
                 }
             }
